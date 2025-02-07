@@ -1,10 +1,11 @@
 <div class="auth-container">
-    <div class="auth-img">
-        <p>bite</p>
+    <div class="img-auth">
+        <img src="/assets/photo-auth.png" alt="Photo repas authentification">
     </div>
-    <div class="auth-form">
+    <div class="form-auth">
         <form>
-            <h2>Inscription</h2>
+            <h2 class="title-auth">Créer son compte</h2>
+            <hr>
             <div class="name-field">
                 <div class="form-field">
                     <label for="name">Nom :</label>
@@ -24,8 +25,9 @@
                 <input name="password" formControlName="password" placeholder="**********">
             </div>
             <div class="form-buttons">
-                <button class="button button-primary">S'inscrire</button>
+                <button class="btn btn-auth">S'inscrire</button>
             </div>
+            <p class="already-text-auth">Déjà inscrit ? <a href="#">Se connecter</a></p>
         </form>
     </div>
 </div>

@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+// Color :
+// background-color: #101213
+// btn : background-color: #f47015
+
+*, ::before, ::after{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #101213;
+    color: #FFFF;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: #f47015;
+    color: #FFFF;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
