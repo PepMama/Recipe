@@ -1,6 +1,6 @@
 <div class="auth-container">
     <div class="img-auth">
-        <img src="/assets/photo-auth.png" alt="Photo repas authentification">
+        <img src="images/photo-auth.png" alt="Photo repas authentification">
     </div>
     <div class="form-auth">
         <form>
@@ -9,23 +9,23 @@
             <div class="name-field">
                 <div class="form-field">
                     <label for="name">Nom :</label>
-                    <input name="name" formControlName="name" placeholder="Ex : Paul">
+                    <input name="name" formControlName="name" type="text" placeholder="Ex : Paul">
                 </div>
                 <div class="form-field">
                     <label for="firstname">Prénom :</label>
-                    <input name="firstname" formControlName="firstname" placeholder="Dupont">
+                    <input name="firstname" formControlName="firstname" type="text" placeholder="Dupont">
                 </div>
             </div>
             <div class="form-field">
                 <label for="mail">Adresse mail : </label>
-                <input name="mail" formControlName="mail" placeholder="Ex : paul@gmail.com">
+                <input name="mail" formControlName="mail" type="text" placeholder="Ex : paul@gmail.com">
             </div>
             <div class="form-field">
                 <label for="password">Mot de passe :</label>
-                <input name="password" formControlName="password" placeholder="**********">
+                <input name="password" formControlName="password" type="text" placeholder="**********">
             </div>
             <div class="form-buttons">
-                <button class="btn btn-auth">S'inscrire</button>
+                <button routerLink="/recipes" class="btn btn-auth">S'inscrire</button>
             </div>
             <p class="already-text-auth">Déjà inscrit ? <a href="#">Se connecter</a></p>
         </form>
